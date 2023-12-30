@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Txon_04.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8345247dd3.js" crossorigin="anonymous"></script>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Kondaveeti Hepsibha</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Hepsibha Kondaveeti</h1>
+            <h3>And I' m a <span>Frontend Developer</span></h3>
+        </div>
+        <div class="home-img">
+            <img src="https://res.cloudinary.com/dnmmzgqdk/image/upload/v1703843828/hepsi_image_iu2zjg.jpg"
+                class="Myimage">
+        </div>
+    </section>
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://res.cloudinary.com/dnmmzgqdk/image/upload/v1703843828/hepsi_image_iu2zjg.jpg"
+                class="Myimage">
+        </div>
+        <div class="about-content">
+            <h2 class="main-heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I am a frotend Developer.I learn some techonologies like HTML, CSS, JAVASCRIPT.and I build
+                static and responsive websites.
+            </p>
+        </div>
+    </section>
+    <!-- skills section -->
+
+
+    <section class="skills" id="skills">
+        <h2 class="heading">MY <span>Skills</span></h2>
+        <p class="description">
+            Frontend Developers work closely with designers to make websites
+            beautiful, functional, and fast. This learning path includes:
+        </p>
+        <div class="cards-container">
+            <div class="card border-green">
+                <p>Basics of HTML5</p>
+            </div>
+            <div class="card border-dark-green">
+                <p>CSS Specificity</p>
+            </div>
+            <div class="card border-dark-yellow">
+                <p>CSS Box Model</p>
+            </div>
+            <div class="card border-orange">
+                <p>Bootstrap Flex Utilities</p>
+            </div>
+            <div class="card border-blue">
+                <p>Bootstrap Grid System</p>
+            </div>
+            <div class="card border-violet">
+                <p>CSS Cascading</p>
+            </div>
+            <div class="card border-pink">
+                <p>Website Layout</p>
+            </div>
+            <div class="card border-red">
+                <p>DOM Manipulation</p>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section -->
+    <section class="projects" id="projects">
+        <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="menu-section-heading">Projects</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <img src="https://img.freepik.com/premium-photo/illustration-famous-monument-world_117023-87.jpg?size=626&ext=jpg&ga=GA1.1.1284456785.1688487105&semt=ais"
+                                class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Seven Wonders</h1>
+                            <a href="https://psevenwonders.ccbp.tech/" class="menu-item-link">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short"
+                                    fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <img src="https://img.freepik.com/free-photo/turquoise-wooden-table-front-shopping-mall_23-2147907236.jpg?size=626&ext=jpg&ga=GA1.1.1284456785.1688487105&semt=ais"
+                                class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Clothes Shopping</h1>
+                            <a href="https://hepsi.ccbp.tech/" class="menu-item-link">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right"
+                                    fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <img src="https://img.freepik.com/free-photo/futuristic-science-fiction-octagon-mandala-design-with-neon-blue-light_181624-23226.jpg?size=626&ext=jpg&ga=GA1.1.1284456785.1688487105&semt=ais"
+                                class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Defuser Application Game</h1>
+                            <a href="https://hegame.ccbp.tech/" class="menu-item-link">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right"
+                                    fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <img src="https://img.freepik.com/free-photo/close-up-cat-near-light-bulb_23-2149241113.jpg?size=626&ext=jpg&ga=GA1.1.1284456785.1688487105&semt=ais"
+                                class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Cat & Light </h1>
+                            <a href="https://hcatlighimage.ccbp.tech/" class="menu-item-link">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right"
+                                    fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <img src="https://img.freepik.com/free-photo/flat-lay-composition-back-school-still-life-elements_23-2148969121.jpg?size=626&ext=jpg&ga=GA1.1.1284456785.1688487105&semt=ais"
+                                class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Todo List</h1>
+                            <a href="https://pestodo.ccbp.tech/" class="menu-item-link">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right"
+                                    fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <img src="https://img.freepik.com/free-vector/login-tamplate-blue-theme_1017-33523.jpg?size=626&ext=jpg&ga=GA1.1.1284456785.1688487105&semt=ais"
+                                class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Add user page </h1>
+                            <a href="https://siadduser.ccbp.tech/" class="menu-item-link">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right"
+                                    fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+    </section>
+    <!-- footer section -->
+    <section class="contact" id=contact>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 mb-3">
+                    <div class="d-flex flex-row">
+                        <img src="https://res.cloudinary.com/dnmmzgqdk/image/upload/v1703843828/hepsi_image_iu2zjg.jpg"
+                            class="footer-section-image">
+                        <div class="ml-3">
+                            <h1 class="footer-section-sub-heading">Kondaveeti Beulah</h1>
+                            <p class="footer-section-text">Frontend Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-3">
+                    <h1 class="footer-section-sub-heading">Phone No.</h1>
+                    <div>
+                        <i class="fas fa-phone-alt icon"></i>
+                        <span class="footer-section-text ml-2">XXXX3013</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-3">
+                    <h1 class="footer-section-sub-heading">E-mail</h1>
+                    <div>
+                        <i class="fas fa-envelope icon"></i>
+                        <span class="footer-section-text ml-2">hepsibhakondaveeti333@</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-3">
+                    <h1 class="footer-section-sub-heading">Address</h1>
+                    <div>
+                        <i class="fas fa-map-marked-alt icon"></i>
+                        <span class="footer-section-text ml-2"> Hyderabad, Telangana, India</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 mb-3">
+                    <h1 class="footer-section-sub-heading">Follow Me</h1>
+                    <div>
+                        <i class="fa-brands fa-linkedin icon"></i>
+                        <a href="https://www.linkedin.com/in/hepsibha-kondaveeti-425924244/" class="ml-2"
+                            target="_blank">View
+                            Linkedin Profile</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div>
+            <hr class="horizontal-line" />
+            <div class="text-center ">
+                <i class="fa fa-copyright icon mb-4" aria-hidden="true"></i>
+                <span class="para1 mb-4">Copyright 2023 by Hepsibha Kondaveeti </span>
+            </div>
+        </div>
+    </section>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
